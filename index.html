@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>IntraVenous Cannulation Nurse</title>
-	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+	<link rel="Shortcut Icon" href="./favicon.png " type="image/x-icon" />
 	<meta http-equiv="pragma" content="no-cache" />
 	<meta name="robots" content="all" />
 	<meta name="MSSmartTagsPreventParsing" content="true" />
@@ -20,7 +20,8 @@
 		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
 		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
 		#about { background-color: #333333; opacity:.8; border-radius: 10px; width: 360px; padding: 10px 10px 10px 150px; margin: -35px 50px 0 auto !important; }
-        h1 { color: #fff; font-size: 24px; font-family: Helvetica;}
+        h1 { color: #fff; font-size: 24px; font-family: Helvetica; padding: 10px 0px; }
+        #sm a { border-bottom: none; }
 		@media (max-width: 767px) {
 			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
 			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
@@ -33,27 +34,33 @@
 
 <!-- swap out for a logo -->
 <div id="monogram">
-	<img src="ivcnurselogo.png" style="width:50px;"/>
+	<img src="ivcnurselogo.png" style="width:50px; background-color:white; border-radius:50%; border: 2px solid red;box-shadow: 0px 0px 10px yellow;"/>
 </div>
 
 <!-- swap out for information about yourself -->
 <div id="about">
-    <h1>Intra Venous Cannulation Nurse</h1>
+    <h1>IntraVenous Cannulation Nurse</h1>
     <p>
-        Ashley has over 13 years of overseas nursing experience as well as 6 years of experience in <a href="http://www.earthexplorer.info/Countries/Australia">Australia</a>. She has a particilar passion
-        for <a href="http://emedicine.medscape.com/article/1998177-overview">Intravenous Cannulation</a> which is expressed with her skill and enthusiasm.
+        Ashley is a <a href="http://www.nursingmidwiferyboard.gov.au/" target="_new">Registered Nurse (RN)</a> with over 13 years of overseas nursing experience as well as 6 years of experience in <a href="http://www.earthexplorer.info/Countries/Australia" target="_new">Australia</a>. 
+        She has a particilar passion for <a href="http://emedicine.medscape.com/article/1998177-overview" target="_new">Intravenous Cannulation</a> which is expressed by her skill and enthusiasm.
     </p>
     <p>
-        Her range of experience has had her performing cannulations for the radiology deparment at <a href="http://www.sswahs.nsw.gov.au/rpa/">Royal Prince Alfred Hospital</a>, 
+        Her experience has her performing cannulations for the radiology deparment at <a href="http://www.sswahs.nsw.gov.au/rpa/" target="_new">Royal Prince Alfred Hospital</a>, 
         as well as assisting the vascular access team in all areas of the hospital.
     </p>
     <p>
-        ...and <b>yes</b>, she has been on the <a href="http://channelnine.ninemsn.com.au/rpa">TV show, "RPA"</a>.
+        ...and <b>yes</b>, she has been on the <a href="http://channelnine.ninemsn.com.au/rpa" target="_new">TV show, "RPA"</a>.
     </p>
     <p>
         Ashley works on a contract basis, so if you have the need for an experienced and professional Intervascular Cannulation Nurse who loves her work, please feel free to
         make contact.
     </p>
+    <div id="sm">
+        <p>
+            <a href="#"><img src="linkedin-logo-square2-webtreatsetc.png" style="width:64px; height:64px;" title="Linked IN" alt="Linked IN"/></a>
+            <a href="#"><img src="twitter-bird2-square-webtreatsetc.png" style="width:64px"title="Twitter" alt="Twitter"/></a>
+        </p>
+    </div>
 </div>
 
 <!--include jquery & backstretch-->
@@ -63,7 +70,7 @@
 $(function(){
      $(window).resize(function(){
          if($(this).width() >= 767){
-             $.backstretch("ivcnurse.jpg", {speed: 150, centeredX:true});
+             $.backstretch("ivcnurse.jpg", {speed: 150});
          }
       })
       .resize();//trigger resize on page load
