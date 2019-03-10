@@ -1,60 +1,74 @@
-<!doctype html>
-<html>
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>N.H.</title>
-	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
-	<meta http-equiv="pragma" content="no-cache" />
-	<meta name="robots" content="all" />
-	<meta name="MSSmartTagsPreventParsing" content="true" />
-	<meta http-equiv="imagetoolbar" content="false" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!--[if lt IE 9]>
-	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->	
-	<style>
-		* { padding: 0; margin: 0; }
-		body { background-color: #333; }
-		p { color: #fff; font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
-		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
-		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
-		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
-		#about { width: 360px; padding: 0 0 0 150px; margin: -35px 50px 0 auto !important; }
-		@media (max-width: 767px) {
-			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
-			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
-			background-image { opacity: 0.2; }
-		}
-	</style>
-</head>	
-    
-<body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-<!-- swap out for a logo -->
-<div id="monogram">
-	<img src="monogram.png" />
-</div>
+    <title>Joshua Franklin</title>
 
-<!-- swap out for information about yourself -->
-<div id="about">
-	<p>Naz Hamid is the founder and principal of <a href="http://weightshift.com">Weightshift</a>, a design studio in San Francisco and Chicago. Aside from client work, projects include the community-oriented site <a href="http://interhoods.org">Interhoods</a> and mobile web application, <a href="http://sitby.us">SitBy.Us</a>. The two projects codenamed <em>Suplex</em> and <em>Sleeperhold</em> are aiming to be launched in 2011.</p>
-	<p>He writes about design and tangential topics at <a href="http://weightshift.com/memo">Memo</a>, writes in 140 characters at <a href="http://twitter.com/weightshift">Twitter</a>, posts photos to <a href="http://flickr.com/absenter"/>Flickr</a>, creates 400x300px works-in-progress on <a href="http://dribbble.com/weightshift">Dribbble</a>, sometimes makes moving pictures on <a href="http://vimeo.com/weightshift">Vimeo</a>, records items of interest at <a href="http://svpply.com/weightshift">Svpply</a>, listens to all his music on <a href="http://www.rdio.com/people/weightshift/">Rdio</a> and answers the occasional question on <a href="http://www.quora.com/Naz-Hamid">Quora</a>. He also makes music as <a href="http://murdersandmysteries.com">Murders & Mysteries</a> and released an album in 2010.</p>
-	<p>A <a href="http://en.wikipedia.org/wiki/Third_culture_kid">third-culture kid</a>, Naz has lived on three continents and in three countries. He currently lives in San Francisco, California, a place where he feels comfortable in his own skin.</p> 
-</div>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<!--include jquery & backstretch-->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="jquery.backstretch.min.js"></script>
-<script type="text/javascript">
-$(function(){
-     $(window).resize(function(){
-         if($(this).width() >= 767){
-             $.backstretch("nh_bg.jpg", {speed: 150});
-         }
-      })
-      .resize();//trigger resize on page load
-});
-</script>
+    <!-- Custom styles for this template -->
+    <link href="css/cover.css" rel="stylesheet">
 
-</body>	
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand"><a href="https://jfranklin.me">Joshua Franklin</a></h3>
+              <ul class="nav masthead-nav">
+                 <li><a href="https://twitter.com/thejoshpit"><img src="https://jfranklin.me/images/twitter.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/joshuamichaelfranklin/"><img src="https://jfranklin.me/images/linkedin.png"></a></li>
+                <li><a href="mailto:josh.michael.franklin@gmail.com"><img src="https://jfranklin.me/images/email.png"></a></li>
+                <li><a href="https://thecapitolheights.com">Music</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Security. Elections. Mobility.</h1>
+            <p class="lead jbody">I'm a cybersecurity researcher focusing on mobile, IoT, and election security. I dig LTE, python, and pentesting. Come on in and see what I've been up to!</p>
+            <p class="lead">
+              <a href="https://jfranklin.me/projects.html"" class="btn btn-lg btn-default">Projects</a>
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
+  </body>
 </html>
